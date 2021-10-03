@@ -47,7 +47,6 @@ class _HomeState extends State<Home> {
       _selectedIndex = index;
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
