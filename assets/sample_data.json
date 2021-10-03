@@ -1,0 +1,49 @@
+{
+    "overall":{
+        "allOrders":"All Orders - 1543",
+        "allTimes":"1543",
+        "date":"Today - 8"
+    },
+  "items": [
+    {
+    "item_url":"https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/product/46/631/1_1-wide_zoom.jpg",
+    "item_name":"Cashew Cookies",
+    "timestamp":"01/10/2021     06:30 PM",
+      "orderNo": "Order No - 134522",
+      "amount": "Rs. 72",
+      "payment_status": "PAID",
+      "order_status": "Pending",
+      "total_count":"2"
+    },
+      {
+     "item_url":"https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/product/66/01/1_3-wide_zoom.jpg",
+     "item_name":"Instant Noodles - Masala",
+     "timestamp":"01/10/2021     06:30 PM",
+      "orderNo": "Order No - 134522",
+      "amount": "Rs 72",
+      "payment_status": "PAID",
+      "order_status": "Accepted",
+      "total_count":"4"
+    },
+      {
+      "item_url":"https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/simple/87/692/1-zoom.jpg",
+      "item_name":"Hakka Noodles -Veg",
+      "timestamp":"01/10/2021     06:30 PM",
+      "orderNo": "Order No - 134522",
+      "amount": "Rs 72",
+      "payment_status": "PAID",
+      "order_status": "Shipped",
+      "total_count":"2"
+    },
+    {
+        "item_url":"https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/simple/87/692/1-zoom.jpg",
+        "item_name":"Hakka Noodles -Veg",
+        "timestamp":"01/10/2021     06:30 PM",
+        "orderNo": "Order No - 134522",
+        "amount": "Rs 72",
+        "payment_status": "PAID",
+        "order_status": "Accepted",
+        "total_count":"2"
+      }
+  ]
+}
