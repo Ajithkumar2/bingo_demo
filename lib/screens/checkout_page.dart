@@ -1,14 +1,13 @@
 import 'package:bingo_demo/const.dart';
-import 'package:bingo_demo/models/all_orders.dart';
+import 'package:bingo_demo/models/orders_data.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 class CheckOutPage extends StatefulWidget {
-  final Item item;
-  // ignore: prefer_const_constructors_in_immutables
-  CheckOutPage({key, required this.item}) : super(key: key);
+  final Order item;
+  const CheckOutPage({key, required this.item}) : super(key: key);
   @override
   _checkoutState createState() {
     return _checkoutState();
@@ -24,7 +23,7 @@ class _checkoutState extends State<CheckOutPage> {
         child: Scaffold(
       appBar: AppBar(
         backgroundColor: appbarcolor,
-        title: Text(widget.item.orderNo),
+        title: Text("Order No - " + widget.item.orderNo.toString()),
       ),
       body: Column(
         children: [
@@ -41,7 +40,7 @@ class _checkoutState extends State<CheckOutPage> {
                       height: 80,
                       width: 80,
                       child: Image.network(
-                        widget.item.imageUrl,
+                        "https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/product/66/01/1_3-wide_zoom.jpg",
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -74,10 +73,10 @@ class _checkoutState extends State<CheckOutPage> {
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: 20),
-                    child: Text(widget.item.amount,
+                    child: Text("Rs. " + widget.item.price,
                         style: GoogleFonts.roboto(
                             color: purple,
-                            fontSize: 18,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold)),
                   )
                 ],
@@ -92,7 +91,7 @@ class _checkoutState extends State<CheckOutPage> {
                       height: 80,
                       width: 80,
                       child: Image.network(
-                        widget.item.imageUrl,
+                        "https://cflare.shop.bigbazaar.com/cdn-cgi/image/width=450/media/product/66/01/1_3-wide_zoom.jpg",
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -125,10 +124,10 @@ class _checkoutState extends State<CheckOutPage> {
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: 20),
-                    child: Text(widget.item.amount,
+                    child: Text("Rs. " + widget.item.price,
                         style: GoogleFonts.roboto(
                             color: purple,
-                            fontSize: 18,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold)),
                   )
                 ],

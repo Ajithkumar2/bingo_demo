@@ -8,3 +8,4 @@ Color appbarcolor = Color(0xff5d39c1);
 Color lightGrey = Color(0xFFb7c0ce);
 Color yellow = Color(0XFFEAC117);
 Color orangeBrown = Color(0XFFE2A76F);
+String URL = "https://login-api-demo.herokuapp.com/";
